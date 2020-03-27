@@ -6,7 +6,7 @@ function AboutPage() {
         height: '80vh',
         backgroundImage: 'url("https://i.imgur.com/qkdpN.jpg")',
         backgroundSize: 'cover',
-        backgroundPosition: 'center'
+        backgroundPosition: 'center'      
     }
 
   return (
