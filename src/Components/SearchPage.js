@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import BreedSearchForm from './BreedSearchForm';
+import BreedResultList from './BreedResultList';
 
 
 function SearchPage() {
@@ -15,46 +16,7 @@ function SearchPage() {
         </section>
 
         <div class="album py-5 bg-light">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="https://i.pinimg.com/originals/be/da/86/beda8664f4608ebeb54697a61d5121c2.jpg" alt="Card image cap" />
-                            <div class="card-body">
-                                <p class="card-text">Cool doggy.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="https://i.pinimg.com/originals/be/da/86/beda8664f4608ebeb54697a61d5121c2.jpg" alt="Card image cap" />
-                            <div class="card-body">
-                                <p class="card-text">Cool doggy.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="https://i.pinimg.com/originals/be/da/86/beda8664f4608ebeb54697a61d5121c2.jpg" alt="Card image cap" />
-                            <div class="card-body">
-                                <p class="card-text">Cool doggy.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="https://i.pinimg.com/originals/be/da/86/beda8664f4608ebeb54697a61d5121c2.jpg" alt="Card image cap" />
-                            <div class="card-body">
-                                <p class="card-text">Cool doggy.</p>
-                            </div>
-                        </div>
-                    </div>                                        
-                </div>
-            </div>
+            <BreedResultList />
         </div>
     </div>
   );
