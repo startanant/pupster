@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
+import BreedSearchForm from './BreedSearchForm';
+
 
 function SearchPage() {
   return (
@@ -8,14 +10,7 @@ function SearchPage() {
             <div class="container">
                 <h1 class="jumbotron-heading">Search</h1>
                 <p class="text-muted lead">Please select the breed of dog</p>
-                <form class="row">
-                    <div class="col-10">
-                        <input type="text" class="form-control" />
-                    </div>
-                    <div class="col-2">
-                        <button class="btn btn-primary">Search</button>
-                    </div>
-                </form>
+                <BreedSearchForm />
             </div>
         </section>
 
